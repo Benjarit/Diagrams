@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T02:45:12.831Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="SzfL3aFvaS1sxLRz9ff3" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T03:07:08.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="6EMNmJjO1dgLM6uRHt-J" version="24.0.1" type="github">
   <diagram name="Page-1" id="jpE37K1DO2XXTudo3TdZ">
-    <mxGraphModel dx="3145" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3473" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,17 +191,19 @@
         <mxCell id="RVsrk9NRRjOC-MP2Q-8U-132" value="Entity...n" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="717.48" y="2030" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RVsrk9NRRjOC-MP2Q-8U-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+        <mxCell id="RVsrk9NRRjOC-MP2Q-8U-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RVsrk9NRRjOC-MP2Q-8U-335">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="619.8899999999999" y="1360" as="sourcePoint" />
-            <mxPoint x="619.29" y="1410" as="targetPoint" />
+            <mxPoint x="619.1699999999998" y="1360" as="sourcePoint" />
+            <mxPoint x="567.4800000000005" y="1450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="620.29" y="1400" />
+              <mxPoint x="619" y="1400" />
+              <mxPoint x="567" y="1400" />
+              <mxPoint x="567" y="1460" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RVsrk9NRRjOC-MP2Q-8U-188" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;The Universe&lt;/font&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="1240" width="530" height="120" as="geometry" />
+          <mxGeometry x="270" y="1240" width="710" height="120" as="geometry" />
         </mxCell>
         <mxCell id="RVsrk9NRRjOC-MP2Q-8U-201" value="State of Entity 1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="289.36" y="1940" width="136.25" height="40" as="geometry" />
@@ -253,9 +255,6 @@
             <mxPoint x="977.51" y="1874.0900000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RVsrk9NRRjOC-MP2Q-8U-222" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;The State of the Universe&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="455" y="1450" width="330" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="RVsrk9NRRjOC-MP2Q-8U-227" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;Space&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="1640" width="60" height="30" as="geometry" />
         </mxCell>
@@ -271,20 +270,23 @@
         <mxCell id="RVsrk9NRRjOC-MP2Q-8U-236" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Past&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1825" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RVsrk9NRRjOC-MP2Q-8U-294" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=837.5;endSize=55.574999999999996;endWidth=112.77777777777777;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;opacity=30;dashed=1;entryX=0.042;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="RVsrk9NRRjOC-MP2Q-8U-294" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=506;endSize=49.84;endWidth=112.77777777777777;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;opacity=30;dashed=1;entryX=0.042;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="1828.75" as="sourcePoint" />
-            <mxPoint x="1149.62" y="1828.9499999999998" as="targetPoint" />
+            <mxPoint x="160" y="1873.89" as="sourcePoint" />
+            <mxPoint x="1129.62" y="1874.09" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RVsrk9NRRjOC-MP2Q-8U-252" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;Time&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="873.73" y="1455" width="86.27" height="40" as="geometry" />
+          <mxGeometry x="734.35" y="1635" width="86.27" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RVsrk9NRRjOC-MP2Q-8U-323" value="" style="endArrow=ERmandOne;html=1;rounded=0;startArrow=ERmandOne;startFill=0;endFill=0;" edge="1" parent="1">
+        <mxCell id="RVsrk9NRRjOC-MP2Q-8U-333" value="" style="endArrow=ERmandOne;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.501;exitY=0.066;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=ERmandOne;startFill=0;endFill=0;" edge="1" parent="1" source="RVsrk9NRRjOC-MP2Q-8U-212" target="RVsrk9NRRjOC-MP2Q-8U-335">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="567.14" y="1660" as="sourcePoint" />
-            <mxPoint x="567.14" y="1620" as="targetPoint" />
+            <mxPoint x="567" y="1650" as="sourcePoint" />
+            <mxPoint x="567.4800000000005" y="1560" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RVsrk9NRRjOC-MP2Q-8U-335" value="&lt;span style=&quot;font-size: 28px;&quot;&gt;The State of the Universe&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="381.23" y="1470" width="372.52" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
